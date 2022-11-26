@@ -12,6 +12,13 @@ html {
 body {
   color: #ffffff;
 }
+::-webkit-scrollbar {
+  background-color: rgb(228, 228, 228);
+}
+::-webkit-scrollbar-thumb {
+  background-color: #b8968c;
+  border-radius: 50px;
+}
 input {
   padding-left: 10px;
 }
