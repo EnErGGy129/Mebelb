@@ -1,0 +1,289 @@
+@media screen and (min-width: 769px) and (max-width: 1080px) {
+  .container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .header {
+    height: 70px;
+    padding: 10px 0 0 0;
+  }
+  .navigation {
+    height: 50px;
+  }
+  .logo span {
+    margin-right: 60px;
+  }
+  .search {
+    margin-right: 30px;
+  }
+  a.nav-link-home,
+  a.nav-link-about,
+  a.nav-link-payment,
+  a.nav-link-contacts .banner-img {
+    max-width: 110px;
+  }
+  .banner-img {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+  }
+  .products-card {
+    width: 230px;
+    height: 450px;
+    padding: 20px 20px 20px 20px;
+  }
+  .product {
+    width: 180px;
+    height: 150px;
+  }
+  .slider {
+    height: 400px;
+  }
+  .slider-inner {
+    max-width: 700px;
+    height: 350px;
+  }
+  .slide {
+    max-width: 700px;
+    height: 400px;
+  }
+  .review-card {
+    width: 310px;
+  }
+  .first-part {
+    width: 300px;
+    margin-right: 60px;
+  }
+  .footer-item {
+    max-width: 130px;
+  }
+}
+@media screen and (max-width: 767px) {
+  body.lock {
+    overflow: hidden;
+  }
+  .container {
+    max-width: 95%;
+  }
+  .header {
+    height: 50px;
+    padding: 10px 0 0 0;
+  }
+  .header.active:before {
+    background: #ab7fc4;
+  }
+  .header:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #c4987f;
+    z-index: 3;
+    transition: 1s;
+  }
+  .logo {
+    z-index: 3;
+  }
+  .logo span {
+    font-weight: 700;
+    font-size: 24px;
+    top: 10px;
+  }
+  .header-burger {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    z-index: 3;
+  }
+  .header-burger span {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    top: 9px;
+    transition: 0.3s;
+  }
+  .header-burger:before,
+  .header-burger:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    left: 0;
+    transition: 0.3s;
+  }
+  .header-burger:before {
+    top: 0;
+  }
+  .header-burger:after {
+    bottom: 0;
+  }
+  .header-burger.active:before {
+    transform: rotate(45deg);
+    top: 9px;
+  }
+  .header-burger.active:after {
+    transform: rotate(-45deg);
+    bottom: 9px;
+  }
+  .header-burger.active span {
+    transform: scale(0);
+  }
+  nav.nav {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 100%;
+    background: rgb(171, 127, 196);
+    background: linear-gradient(
+      rgba(171, 127, 196, 1) 8%,
+      rgba(255, 0, 65, 1) 100%
+    );
+    z-index: 2;
+    padding: 70px 0 0 0;
+    display: block;
+    overflow: auto;
+  }
+  nav.nav.active {
+    left: 0;
+  }
+  .nav-list {
+    position: relative;
+    z-index: 3;
+    display: block;
+  }
+  .nav-item {
+    margin: 50px 0 0 0;
+  }
+  a.nav-link-login {
+    display: flex;
+  }
+  .icons {
+    display: none;
+  }
+  .banner-img {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    position: relative;
+  }
+  .products-card1,
+  .products-card2 {
+    max-width: 260px;
+    margin: 0 auto;
+    display: block;
+  }
+  .products-card {
+    margin-bottom: 10px;
+  }
+  .slider {
+    height: 300px;
+  }
+  .slider-inner {
+    max-width: 500px;
+    height: 250px;
+  }
+  .slide {
+    max-width: 500px;
+    height: 300px;
+  }
+  .review-cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .review-card1 {
+    width: 100%;
+    margin-bottom: 10px;
+    
+  }
+  .review-card2 {
+    margin: 0 auto;
+  }
+  .review-card {
+    width: 300px;
+  }
+  .support {
+    margin-bottom: 20px;
+  }
+  .logo1 {
+    width: 100px;
+    height: 40px;
+  }
+  .logo2 {
+    width: 80px;
+    height: 25px;
+  }
+  .logo3 {
+    width: 90px;
+    height: 25px;
+  }
+  .logo4 {
+    width: 100px;
+    height: 40px;
+  }
+  .modal-canvas {
+    left: 20%;
+  }
+  .modal {
+    width: 60%;
+    height: 70%;
+  }
+  .input {
+    height: 40px;
+    width: 200px;
+  }
+  .btn-footer {
+    max-width: 90%;
+  }
+  .third-part {
+    display: none;
+  }
+  .text1,
+  .text3 {
+    width: 50%;
+    height: 750px;
+    font-size: 10px;
+    font-weight: 300;
+  }
+  .text2,
+  .text4 {
+    width: 50%;
+    height: 300px;
+  }
+  .text1 hr,
+  .text2 hr,
+  .text3 hr,
+  .text4 hr {
+    width: 85%;
+  }
+  .contacts-inner {
+    justify-content: space-between;
+  }
+  .contacts-left {
+    width: 45%;
+    height: 500px;
+  }
+  .contacts-img {
+    width: 100%;
+    height: 500px;
+  }
+  .contacts-right {
+    width: 45%;
+    height: 400px;
+  }
+  .wrapper-out {
+    width: 52%;
+  }
+  .wrapper-login input {
+    max-width: 100%;
+  }
+  .login-ava {
+    left: 30%;
+  }
+}
