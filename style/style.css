@@ -15,6 +15,13 @@ body {
 input {
   padding-left: 10px;
 }
+::-webkit-scrollbar {
+  background-color: #e5e5e5;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #b9978d;
+  border-radius: 20px;
+}
 .container {
   max-width: 80%;
   margin: 0 auto;
